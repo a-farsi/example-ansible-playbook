@@ -19,7 +19,7 @@
   tasks:
     - name: create appache container
       docker_container:
-        name:sudo pip install ansible-lint webapp
+        name: webapp
         image: httpd
         ports:
           - "80:80"
