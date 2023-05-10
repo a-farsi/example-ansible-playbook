@@ -1,0 +1,25 @@
+---
+- name: "Appache installation using docker"
+  hosts: prod
+  become: true
+  vars:
+    ansible_sudo_pass: admin
+  pre_tasks:
+    - name: Install EPEL repo
+      package: name=epel-release state=present
+      when: ansible_distribution == "CentOS"
+    – name: download pip script
+      get_url:
+        url: https://bootstrap.pypa.io/pip/2.7/get-pip.py
+        dest: /tmp/get-pip.py
+    - name: Install Python-pip
+      command: python2.7 /tmp/get-pip.py
+    - name: Install docker Python
+      pip: name=docker-py
+  tasks:
+    - name: create appache container
+      docker_container:
+        name:sudo pip install ansible-lint webapp
+        image: httpd
+        ports:
+          - "80:80"
