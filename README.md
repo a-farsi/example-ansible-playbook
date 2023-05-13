@@ -5,12 +5,10 @@ First, we create a cluster that includes an 'ansible controller' and a 'managed 
 
 <!--![](figures/select-ansible-instance.png)-->
 
-<p style="text-align: center;">
-<figure>
-<img style="display: block; margin: auto; width: 70%;" 
-src="figures/select-ansible-instance.png" alt="Select the preconfigured ansible instance before validating its creation">
-<figcaption>select the preconfigured ansible instance before validating its creation</figcaption>
-</figure>
+<p>
+<center><img style="display: block; margin: auto; width: 70%;" 
+src="figures/select-ansible-instance.png" alt="Select the preconfigured ansible instance before validating its creation"></center>
+<center>Select the preconfigured ansible instance before validating its creation</center>
 </p>
  
 
@@ -18,8 +16,8 @@ src="figures/select-ansible-instance.png" alt="Select the preconfigured ansible 
 
 <p align=center>
 <figure>
-<img src="figures/select-client-instance.png" alt="Select the preconfigured client instance before validating its creation" width=70% height=70%>
-<figcaption>select the preconfigured client instance before validating its creation</figcaption>
+<img src="figures/select-client-instance.png" alt="Select the preconfigured client instance before validating its creation" width=70% height=70%/>
+<figcaption>Select the preconfigured client instance before validating its creation</figcaption>
 </figure>
 </p>
 
