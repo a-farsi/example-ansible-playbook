@@ -5,12 +5,10 @@ First, we create a cluster that includes an 'ansible controller' and a 'managed 
 
 <!--![](figures/select-ansible-instance.png)-->
 
-<div>
+<p align="center">
 <img src="figures/select-ansible-instance.png" style="width:60%; display:block; margin:auto;">
-<p style="text-align:center">
 Select the preconfigured ansible instance before validating its creation
 </p>
-</div>
  
 
 <!--![](figures/select-client-instance.png) -->
