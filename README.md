@@ -15,13 +15,11 @@ First, we create a cluster that includes an 'ansible controller' and a 'managed 
 
 <!--![](figures/select-client-instance.png) -->
 
-<p align="center">
-<figure>
-<img src="figures/select-client-instance.png" alt="select the preconfigured client instance before validating its creation" width=70% height=70%>
-</figure>
-<figcaption>select the preconfigured client instance before validating its creation</figcaption>
-</p>
 
+<figure align=center>
+<img src="figures/select-client-instance.png" alt="select the preconfigured client instance before validating its creation" width=70% height=70%>
+<figcaption>select the preconfigured client instance before validating its creation</figcaption>
+</figure>
 
 Note that we use interchangeably managed node and remote machine.
 
