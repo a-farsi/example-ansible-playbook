@@ -96,12 +96,13 @@ We launch our playbook by running the following command:
 ```
 ansible-playbook -i hosts.yml deploy.yml
 ```
+
+An error is displayed to indicate that Ansible is unable to import the necessary Python library for interacting with Docker, which suggests that either the "docker" or "docker-py" library is missing depending on the Python version being used
+
 <p align=center>
 <img src="figures/error1.png" alt="The linux distribution"/>
 </p>
 <p align=center>Error related to python lib to interacte with Docker</p>
-
-An error is displayed to indicate that Ansible is unable to import the necessary Python library for interacting with Docker, which suggests that either the "docker" or "docker-py" library is missing depending on the Python version being used
 
 We are going to define in our playbook a task that installs this library, but we have to define it in the pre-tasks section.
 
