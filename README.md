@@ -1,5 +1,14 @@
 # example-ansible-playbook
-We will be using the https://docker.labs.eazytraining.fr platform to complete this practical work. First, we create a cluster that includes an 'ansible controller' and a 'managed node'. We can create them by selecting the pre-configured instances eazytraining/ansible and eazytraining/client, respectively.
+We notice that to perform this ansible lab we are using this docker platefrorm [https://docker.labs.eazytraining.fr](https://docker.labs.eazytraining.fr/),  provided by eazytraining.
+
+First, we create a cluster that includes an 'ansible controller' and a 'managed node'. We can create them by selecting the pre-configured instances eazytraining/ansible and eazytraining/client, respectively.
+
+![](figures/select-ansible-instance.png)
+select the preconfigured ansible instance before validating its creation 
+
+![](figures/select-client-instance.png)
+select the preconfigured client instance before validating its creation
+
 Note that we use interchangeably managed node and remote machine.
 
 For security reasons, we avoid using the 'root' user for these operations. Instead, we will use the 'admin' user. We can switch to this user by executing the command:
