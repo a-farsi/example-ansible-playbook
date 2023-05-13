@@ -14,11 +14,10 @@ Select the preconfigured ansible instance before validating its creation
 <!--![](figures/select-client-instance.png) -->
 
 <p align=center>
-<figure>
 <img src="figures/select-client-instance.png" alt="Select the preconfigured client instance before validating its creation" width=70% height=70%/>
-<figcaption>Select the preconfigured client instance before validating its creation</figcaption>
-</figure>
 </p>
+<p align=center>Select the preconfigured client instance before validating its creation</p>
+
 
 
 Note that we use interchangeably managed node and remote machine.
