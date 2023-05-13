@@ -41,7 +41,7 @@ pwd
 This docker plateform allows to create instances that run on CentOS linux distribution 
 
 <p align=center>
-<img src="figures/linux-distribution.png" alt="The linux distribution" width=70%/>
+<img src="figures/linux-distribution.png" alt="The linux distribution" width=55%/>
 </p>
 <p align=center>The linux distribution</p>
 
