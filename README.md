@@ -6,7 +6,7 @@ First, we create a cluster that includes an 'ansible controller' and a 'managed 
 <!--![](figures/select-ansible-instance.png)-->
 
 <div>
-<img src="figures/select-ansible-instance.png" alt="Select the preconfigured ansible instance before validating its creation" style="width:70%; display:block; margin:auto;">
+<img src="figures/select-ansible-instance.png" style="width:60%; display:block; margin:auto;">
 <p style="text-align:center">
 Select the preconfigured ansible instance before validating its creation
 </p>
