@@ -7,7 +7,8 @@ First, we create a cluster that includes an 'ansible controller' and a 'managed 
 
 <p align="center">
 <figure>
-<img src="figures/select-ansible-instance.png" alt="Select the preconfigured ansible instance before validating its creation" width=70% height=70%>
+<img style="display: block; margin: auto; width: 70%;" 
+src="figures/select-ansible-instance.png" alt="Select the preconfigured ansible instance before validating its creation">
 <figcaption>select the preconfigured ansible instance before validating its creation</figcaption>
 </figure>
 </p>
