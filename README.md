@@ -3,16 +3,20 @@ We notice that to perform this ansible lab we are using this docker platefrorm [
 
 First, we create a cluster that includes an 'ansible controller' and a 'managed node'. We can create them by selecting the pre-configured instances eazytraining/ansible and eazytraining/client, respectively.
 
-![](figures/select-ansible-instance.png)
+<!--![](figures/select-ansible-instance.png) -->
 
 <p align="center">
-<img src="figures/select-ansible-instance.png" width=50% height=50%>
+<img src="figures/select-ansible-instance.png" alt="select the preconfigured ansible instance before validating its creation" width=70% height=70%>
 </p>
 
-select the preconfigured ansible instance before validating its creation 
+ 
 
-![](figures/select-client-instance.png)
-select the preconfigured client instance before validating its creation
+<!--![](figures/select-client-instance.png) -->
+
+<p align="center">
+<img src="figures/select-client-instance.png" alt="select the preconfigured client instance before validating its creation" width=70% height=70%>
+</p>
+
 
 Note that we use interchangeably managed node and remote machine.
 
