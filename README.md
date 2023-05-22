@@ -247,4 +247,4 @@ And this is the httpd running on the web browser:
 
 To enhance our playbook, we can externalize the password by saving it in the ansible.cfg file.
 
-we create the section _privilege_escalation_ and within it we set the _besome_ask_pass_ to true. this way, Ansible will prompt the user for the become password when needed during playbook execution. This can be useful if the user account running Ansible does not have passwordless sudo access and requires a password to escalate privileges.
+we create the section _privilege_escalation_ and within it we set the _become_ask_pass_ to true. This way, Ansible will prompt the user to type the password in order to be used in the needed playbook tasks. This can be useful if the user account running Ansible does not have passwordless sudo access and requires a password to escalate privileges.
