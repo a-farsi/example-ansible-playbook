@@ -62,6 +62,8 @@ prod:
     client:
       ansible_host: 10.0.0.4
 ```
+We have to replace the ip address by the right one.
+
 Let's create a folder called _'group_vars'_ that stores variables specific to each group of hosts. 
 It is important to note that the file names in the _'group_vars'_ directory must exactly match the names of the host groups defined in our Ansible inventory.
 
